@@ -17,7 +17,11 @@ section{
 
 /*calculator body*/
 #calculator{
-	
+	margin:150px;
+}
+
+.empty-space{
+	padding:50px;
 }
 
 /**--------------------------------------
