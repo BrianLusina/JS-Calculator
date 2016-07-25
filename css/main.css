@@ -46,11 +46,17 @@ section{
 /*all button styles*/
 .button-container{
 	text-align: center;
-	background-color:#E91E63!important;
+	background-color:#e30b54!important;
 	text-align: center;
 	color:white;
 	padding:28px !important;
 }
+
+.button-container:hover{
+	background-color:#a81144!important;
+	cursor: pointer;
+}
+
 .eq-container{
 	background:#450250 !important;
 	border-bottom-left-radius: 10px;
