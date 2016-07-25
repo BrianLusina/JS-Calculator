@@ -63,6 +63,10 @@ section{
 	border-bottom-right-radius: 10px;	
 }
 
+.eq-container:hover{
+	background:#2b0331 !important;
+}
+
 button{
 	font-size:20px !important;
 }
