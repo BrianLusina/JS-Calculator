@@ -18,6 +18,7 @@ section{
 
 /*calculator body*/
 #calculator{
+	margin-left: 400px !important;
 	margin:5px;
 	width:300px;
 	border:1px solid black;
