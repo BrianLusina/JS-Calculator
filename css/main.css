@@ -2,6 +2,7 @@ body{
     margin:0px;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:#C292C2 !important;
 }
 
 /**--------------------------------------
@@ -18,12 +19,16 @@ section{
 /*calculator body*/
 #calculator{
 	margin:150px;
+	width:350px;
+	border:1px solid black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 #calc-display{
-	border:1px solid black;
 	padding: 55px;
-	width:500px;
 }
 
 /**--------------------------------------
