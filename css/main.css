@@ -31,6 +31,19 @@ section{
 	padding: 55px;
 }
 
+/*all button styles*/
+.button-container{
+	text-align: center;
+	background-color:gray !important;
+	text-align: center;
+	color:white;
+	padding:28px !important;
+}
+
+button{
+
+}
+
 /**--------------------------------------
 FOOTER
 ------------------------------------*/
