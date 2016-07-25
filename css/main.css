@@ -13,13 +13,13 @@ HEADER
 SECTIONS
 ------------------------------------*/
 section{
-	padding:250px;
+	padding:80px;
 }
 
 /*calculator body*/
 #calculator{
-	margin:150px;
-	width:350px;
+	margin:5px;
+	width:300px;
 	border:1px solid black;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -40,6 +40,9 @@ section{
 	text-align: center;
 	color:white;
 	padding:28px !important;
+}
+.eq-container{
+	background:#450250 !important;
 }
 
 button{
