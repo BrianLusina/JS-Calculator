@@ -29,12 +29,14 @@ section{
 
 #calc-display{
 	padding: 55px;
+	background: white;
+	color:black;
 }
 
 /*all button styles*/
 .button-container{
 	text-align: center;
-	background-color:gray !important;
+	background-color:#E91E63!important;
 	text-align: center;
 	color:white;
 	padding:28px !important;
