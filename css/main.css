@@ -8,7 +8,12 @@ body{
 /**--------------------------------------
 HEADER
 ------------------------------------*/
-
+#title-header{
+	text-align: center;
+	font-family: Raleway, cursive, sans-serif;
+	color:white;
+	font-size: 35px;
+}
 /**--------------------------------------
 SECTIONS
 ------------------------------------*/
@@ -53,4 +58,24 @@ button{
 /**--------------------------------------
 FOOTER
 ------------------------------------*/
+footer{
+	
+}
 
+#footer-container{
+	color:white;
+	text-align: center;
+	padding:5px;
+}
+
+#footer-container .fa-calculator{
+	color:#450250;
+}
+
+#footer-container a{
+	color:white;
+}
+
+#footer-container a:hover{
+	color:burlywood;
+}
