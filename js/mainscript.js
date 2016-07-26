@@ -9,9 +9,14 @@ $(document).ready(function(){
 	/*equals button*/
 	var equalsBtn = $('#equals-btn');
 	
-	//record click events from button containers
 	var buttonContainer = $('.button-container');
 	var equalsContainer = $('.eq-container');
 	
-	
+	/*record click events from button containers
+	store value in variable and display in calc display
+	*/
+	buttonContainer.on("click", function(){
+		var currVal = $(this).find('button').val();
+		calcDisplay.append('<p>'+currVal+'</p>');
+	});
 });
