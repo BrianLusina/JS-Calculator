@@ -17,6 +17,7 @@ $(document).ready(function(){
 	*/
 	buttonContainer.on("click", function(){
 		var currVal = $(this).find('button').val();
-		calcDisplay.append('<p>'+currVal+'</p>');
+		console.log(currVal);
+		calcDisplay.append('<p style="color:black">'+currVal+'</p>');
 	});
 });
