@@ -20,4 +20,9 @@ $(document).ready(function(){
 		console.log(currVal);
 		calcDisplay.append(currVal);
 	});
+	
+	//configure AC button to clear display
+	acButton.on('click', function(){
+		calcDisplay.empty();
+	});
 });
