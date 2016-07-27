@@ -10,6 +10,7 @@ $(document).ready(function(){
 	var equalsBtn = $('#equals-btn');
 	
 	var buttonContainer = $('.button-container');
+	var clearButton = $('.clear-button');
 	var equalsContainer = $('.eq-container');
 	
 	/*record click events from button containers

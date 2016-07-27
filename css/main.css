@@ -5,6 +5,7 @@ body{
 	background:#C292C2 !important;
 }
 
+
 /**--------------------------------------
 HEADER
 ------------------------------------*/
@@ -44,7 +45,8 @@ section{
 }
 
 /*all button styles*/
-.button-container{
+.button-container,
+.clear-button{
 	text-align: center;
 	background-color:#e30b54!important;
 	text-align: center;
@@ -52,7 +54,8 @@ section{
 	padding:28px !important;
 }
 
-.button-container:hover{
+.button-container:hover,
+.clear-button:hover{
 	background-color:#a81144!important;
 	cursor: pointer;
 }

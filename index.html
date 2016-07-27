@@ -11,12 +11,9 @@
 		<meta name="description" content="JS Calculator">
 		<meta name="keywords" content="JavaScript Calculator,JS Calculator">
 
-		<!--Custom CSS-->
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/reset.css">
-
 		<!--Icons-->
 		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" type="text/css">
+		
 		<link rel="stylesheet" href="css/ionicons/css/ionicons.min.css" type="text/css">
 
 		<!--Foundation framework-->
@@ -24,6 +21,12 @@
         
 		<!--Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Raleway|Alegreya+Sans|Cormorant|Cormorant+SC|Cormorant+Upright|Poiret+One|Raleway" rel="stylesheet">
+		
+		<link rel="stylesheet" href="css/reset.css">
+		
+		<!--Custom CSS-->
+		<link rel="stylesheet" href="css/main.css">
+		
 	</head>
 
 	<body>
@@ -54,12 +57,12 @@
 						<!--ac c ( )-->
 						<div class="row">
 							<div class="small-12 columns">
-								<div class="small-3 columns button-container">
+								<div class="small-3 columns clear-button">
 									<button value="AC" id="ac-btn">
 										AC
 									</button>
 								</div>
-								<div class="small-3 columns button-container">
+								<div class="small-3 columns clear-button">
 									<button value ="C" id="cancel-btn">C</button>
 								</div>
 								<div class="small-3 columns button-container">
@@ -83,7 +86,7 @@
 									<button value="9"  id="nine-btn">9</button>
 								</div>
 								<div class="small-3 columns button-container">
-									<button valur="+" id="plus-btn">+</button>
+									<button value="+" id="plus-btn">+</button>
 								</div>
 							</div>
 						</div>
@@ -143,7 +146,7 @@
 						<div class="row">
 							<div class="small-12 columns">
 								<div class="small-12 columns button-container eq-container">
-									<button id="equals-btn">=</button>
+									<button value="=" id="equals-btn">=</button>
 								</div>
 							</div>
 						</div>
