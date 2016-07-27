@@ -40,6 +40,7 @@ section{
 	padding: 55px;
 	background: white;
 	color:black;
+	max-width:100%;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;	
 }
@@ -79,6 +80,7 @@ button{
 /*display inputs*/
 #calc-display p span{
 	margin:0px;
+	font-size: 25px;
 }
 
 
