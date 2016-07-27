@@ -74,6 +74,12 @@ button{
 	font-size:20px !important;
 }
 
+/*display inputs*/
+#calc-display p span{
+	margin:0px;
+}
+
+
 /**--------------------------------------
 FOOTER
 ------------------------------------*/

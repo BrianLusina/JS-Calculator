@@ -17,13 +17,29 @@ $(document).ready(function(){
 	store value in variable and display in calc display
 	*/
 	buttonContainer.on("click", function(){
+		//save this instance
+		var thisBtn = $(this);
 		var currVal = $(this).find('button').val();
+		
 		console.log(currVal);
-		calcDisplay.append(currVal);
+		calcDisplay.append("<span>" + currVal + "-</span>");
+		
+		/*check if operator buttons are clicked, + / * -
+		save the previous input as one whole number
+		*/
+		if(currVal == "+"){
+			
+		}
 	});
 	
 	//configure AC button to clear display
 	acButton.on('click', function(){
 		calcDisplay.empty();
 	});
+	
+	//remove last child input from display
+	cButton.on('click', function(){
+		$("#calc-display p:last-child").empty();
+	});
+	
 });
