@@ -46,7 +46,8 @@ section{
 
 /*all button styles*/
 .button-container,
-.clear-button{
+.clear-button,
+.operator-button{
 	text-align: center;
 	background-color:#e30b54!important;
 	text-align: center;
@@ -55,7 +56,8 @@ section{
 }
 
 .button-container:hover,
-.clear-button:hover{
+.clear-button:hover,
+.operator-button:hover{
 	background-color:#a81144!important;
 	cursor: pointer;
 }

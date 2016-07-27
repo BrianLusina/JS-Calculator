@@ -22,15 +22,10 @@ $(document).ready(function(){
 		var currVal = $(this).find('button').val();
 		
 		console.log(currVal);
-		calcDisplay.append("<span>" + currVal + "-</span>");
+		calcDisplay.append("<span>" + currVal + "</span>");
 		
-		/*check if operator buttons are clicked, + / * -
-		save the previous input as one whole number
-		*/
-		if(currVal == "+"){
-			
-		}
 	});
+	
 	
 	//configure AC button to clear display
 	acButton.on('click', function(){
