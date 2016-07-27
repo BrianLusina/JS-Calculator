@@ -11,8 +11,8 @@ $(document).ready(function(){
 	var calcDisplay = $('#calc-display p');
 	
 	//clear buttons
-	var acButton = $('#ac-btn'), 
-		cButton = $('#cancel-btn');
+	var acButton = $('.ac-button'), 
+		cButton = $('.cancel-btn');
 	
 	//bracket buttons
 	var lftBracketbtn = $('#left-bracket'),
@@ -51,6 +51,11 @@ $(document).ready(function(){
 	 //remove last child input from display		
 	cButton.on('click', function(){
 		$("#calc-display p span:last-child").remove(); 
-	});	
+	});
+	
+	/*operator buttons*/
+	operators.on('click', function(){
+		
+	});
 	
 });
