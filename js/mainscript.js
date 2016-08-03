@@ -13,18 +13,20 @@ $(document).ready(function(){
   }
   calcDisplay.html('');
 	
+	//e is the event
   $('.button-container').on('click',function(e){
 	  console.log(calcDisplay[0].offsetWidth<calcDisplay[0].scrollWidth);
     if(calcDisplay[0].offsetWidth < calcDisplay[0].scrollWidth){
       fontSize = fontSize <= 10 ? 10 : fontSize/1.3;
       calcDisplay.css('font-size',fontSize+'px');
     }
+	  //store the DOM element's inner text that initiated the event in a button variable
     var btnValue = e.target.innerText;
     var $screen = $('#calc-display');
     var screenHtml = $screen.html();
     var screenLastChar = screenHtml[screenHtml.length-1];
     if(btnValue === 'AC'){
-      $('.screen').css('font-size','60px');
+      calcDisplay.css('font-size','60px');
       fontSize= 40;
       $screen.html('');
       decimalAdded = false;
