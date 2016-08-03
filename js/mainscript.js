@@ -8,7 +8,7 @@ $(document).ready(function(){
 	var equalsContainer = $('.eq-container');
 	
 	//calculator display
-	var calcDisplay = $('#calc-display p');
+	var calcDisplay = $('#calc-display');
 	
 	//clear buttons
 	var acButton = $('.ac-button'), 
@@ -45,7 +45,7 @@ $(document).ready(function(){
 		var currVal = $(this).find('button').val();
 		
 		console.log(currVal);
-		calcDisplay.append("<span>" + currVal + "</span>");
+		calcDisplay.append(currVal);
 	});
 	
 	//configure AC button to clear display	
@@ -75,16 +75,16 @@ $(document).ready(function(){
   function roundToFive(num) {    
     return +(Math.round(num + "e+5")  + "e-5");
   }
-
-  $('.screen').html('');
-  $('.key').on('click',function(e){
-    console.log($('.screen')[0].offsetWidth<$('.screen')[0].scrollWidth);
-    if($('.screen')[0].offsetWidth < $('.screen')[0].scrollWidth){
+  calcDisplay.html('');
+	
+  $('.button-container').on('click',function(e){
+	  console.log(calcDisplay[0].offsetWidth<calcDisplay[0].scrollWidth);
+    if(calcDisplay[0].offsetWidth < calcDisplay[0].scrollWidth){
       fontSize = fontSize <= 10 ? 10 : fontSize/1.3;
-      $('.screen').css('font-size',fontSize+'px');
+      calcDisplay.css('font-size',fontSize+'px');
     }
     var btnValue = e.target.innerText;
-    var $screen = $('.screen');
+    var $screen = $('#calc-display');
     var screenHtml = $screen.html();
     var screenLastChar = screenHtml[screenHtml.length-1];
     if(btnValue === 'AC'){
