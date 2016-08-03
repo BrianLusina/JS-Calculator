@@ -1,41 +1,12 @@
 $(document).ready(function(){
-	/*Obtain all JS calculator buttons and store in variables
-	*/
-	
-	/*button containers*/
-	var buttonContainer = $('.button-container');
-	var clearButton = $('.clear-button');
-	var equalsContainer = $('.eq-container');
-	
 	//calculator display
 	var calcDisplay = $('#calc-display');
-	
-	//clear buttons
-	var acButton = $('.ac-button'), 
-		cButton = $('.cancel-btn');
-	
-	//bracket buttons
-	var lftBracketbtn = $('#left-bracket'),
-		rghtBracketbtn = $('#right-bracket-btn');
-		
-	//number buttons
-	var sevBtn = $('#sev-btn'), eghtBtn = $('#eight-btn'), nineBtn = $('#nine-btn'), fourBtn = $('#four-btn'), fiveBtn = $('#five-btn'), sixBtn = $('#six-btn'), oneBtn = $('#one-btn'), twoBtn = $('#two-btn'), threeBtn = ('#three-btn'), periodBtn = $('#period-btn'), zeroBtn = $('#zero-btn'), doubleZero = $('#double-zero-btn');
-	
-	//operator buttons
-	var operators = $('.operator-button'),
-		plusBtn = $('#plus-btn'),
-		minusBtn = $('#minu-btn'),
-		multBtn = $('#mult-btn'),
-		divBtn = $('#div-btn');
 	/*operator symbols*/
 	var operators = ['+','-','*','/'];
 	var decimalAdded = false;
 	var fontSize = 40;
 	var brackets = 0;
 
-	/*equals button*/
-	var equalsBtn = $('#equals-btn');
-	
 /*Round the number to five*/
   function roundToFive(num) {    
     return +(Math.round(num + "e+5")  + "e-5");
