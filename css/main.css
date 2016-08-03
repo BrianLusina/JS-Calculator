@@ -37,8 +37,9 @@ section{
 }
 
 #calc-display{
-	padding: 55px;
+	padding: 20px;
 	background: white;
+	text-align: right;
 	color:black;
 	max-width:100%;
 	border-top-left-radius: 10px;
