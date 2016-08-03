@@ -36,41 +36,6 @@ $(document).ready(function(){
 	/*equals button*/
 	var equalsBtn = $('#equals-btn');
 	
-	/*record click events from button containers
-	store value in variable and display in calc display
-	*/
-	buttonContainer.on("click", function(){
-		//save this instance
-		var thisBtn = $(this);
-		var currVal = $(this).find('button').val();
-		
-		console.log(currVal);
-		calcDisplay.append(currVal);
-	});
-	
-	//configure AC button to clear display	
-	acButton.on('click', function(){
-	   calcDisplay.empty();		
-	});
-	
-	 //remove last child input from display		
-	cButton.on('click', function(){
-		$("#calc-display p span:last-child").remove(); 
-	});
-	
-	/*operator buttons*/
-	operators.on('click', function(){
-		//get the value of the button and store in a var
-		var btn = $( this ).find('button').val();
-		
-		//perform conditions
-		if(btn === "+"){
-			//store the previous input
-			console.log(calcDisplay.children());
-			calcDisplay.append("<span style='margin:0,2px,0,2px;'>"+btn+"</span>");
-		}
-	});
-	
 /*Round the number to five*/
   function roundToFive(num) {    
     return +(Math.round(num + "e+5")  + "e-5");
