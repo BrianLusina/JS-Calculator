@@ -1,0 +1,111 @@
+body{
+    margin:0px;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:#C292C2 !important;
+}
+
+
+/**--------------------------------------
+HEADER
+------------------------------------*/
+#title-header{
+	text-align: center;
+	font-family: Poiret One, cursive, sans-serif;
+	font-weight: bolder;
+	color:white;
+	font-size: 35px;
+}
+/**--------------------------------------
+SECTIONS
+------------------------------------*/
+section{
+	padding:80px;
+}
+
+/*calculator body*/
+#calculator{
+	margin-left: 400px !important;
+	margin:5px;
+	width:300px;
+	box-shadow: 10px 5px 5px rgb(114, 103, 103);
+	border:0px solid black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#calc-display{
+	padding: 40px;
+	font-size: 25px;
+	background: white;
+	text-align: right;
+	color:black;
+	max-width:100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;	
+}
+
+/*all button styles*/
+.button-container,
+.clear-button,
+.operator-button{
+	text-align: center;
+	background-color:#e30b54!important;
+	text-align: center;
+	color:white;
+	padding:28px !important;
+	font-size:20px !important;
+}
+
+.button-container:hover,
+.clear-button:hover,
+.operator-button:hover{
+	background-color:#a81144!important;
+	cursor: pointer;
+}
+
+.eq-container{
+	background:#450250 !important;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;	
+}
+
+.eq-container:hover{
+	background:#2b0331 !important;
+}
+
+/*display inputs*/
+#calc-display p span{
+	margin:0px;
+	font-size: 25px;
+}
+
+
+/**--------------------------------------
+FOOTER
+------------------------------------*/
+footer{
+	
+}
+
+#footer-container{
+	color:white;
+	text-align: center;
+	padding:5px;
+	font-family: Poiret One, cursive, sans-serif;
+	font-weight: bolder;
+}
+
+#footer-container .fa-calculator{
+	color:#450250;
+}
+
+#footer-container a{
+	color:white;
+}
+
+#footer-container a:hover{
+	color:burlywood;
+}
