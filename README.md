@@ -14,7 +14,36 @@ Technologies used:
 + CSS
 + jQuery JavaScript framework
 + Foundation Framework
-+ Modernizr
 + Google Fonts
 + FontAwesome icons
 
+### Install the application and run
+
+``` sh
+$ npm Install
+$ npm run start
+```
+> This will install all required dependencies and runs the application
+
+``` sh
+$ yarn install
+$ yarn start
+```
+> If you have yarn installed on your machine, you can also use it.
+
+That is it!
+
+To deploy the application, simply change the homepage in the `package.json` file to your gh-pages site
+then run:
+
+``` sh
+$ npm run deploy
+```
+
+with yarn
+
+``` sh
+$ yarn deploy
+```
+
+That is it for deployment
