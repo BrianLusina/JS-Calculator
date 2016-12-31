@@ -1,6 +1,6 @@
 # JS-Calculator
 
-Objective: Build a CodePen.io app that is functionally similar to [this](https://codepen.io/FreeCodeCamp/full/PNKdjo/).
+Objective: Build a ReactJS calculator app 
 
 Fulfills the below user stories.
 
@@ -9,7 +9,7 @@ Fulfills the below user stories.
 + I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output.
 
 Technologies used:
-
++ ReactJS
 + HTML
 + CSS
 + jQuery JavaScript framework
@@ -17,4 +17,4 @@ Technologies used:
 + Modernizr
 + Google Fonts
 + FontAwesome icons
-+ Ionicons
+
