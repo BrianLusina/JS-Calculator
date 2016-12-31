@@ -7,10 +7,14 @@ import Footer from './Footer';
 export default class Screen extends Component{
     render(){
         return(
-            <Header />
-            <Screen />
-            <Buttons />
-            <Footer />
+            <div>
+                <Header />
+                <section>
+                    <Screen />
+                    <Buttons />
+                </section>
+                <Footer />
+            </div>
         )
     }
 }
