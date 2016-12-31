@@ -6,7 +6,10 @@ export default class Footer extends Component{
         return(
             <footer>
                 <div className="row">
-                    <div id="footer-container">Made for <i className="fa fa-calculator"></i> by <a href="http://www.codepen.io/mercury">The Lusina</a></div>
+                    <div id="footer-container">Made for 
+                        <i className="fa fa-calculator"></i> by 
+                        <a href="http://thelusina.netlify.com">The Lusina</a>
+                    </div>
                 </div>
             </footer>
         )
