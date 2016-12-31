@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Screen from './Screen';
-import Buttons from './Buttons';
 import Footer from './Footer';
+import Calculator from './Calculator';
 
 export default class Screen extends Component{
     render(){
         return(
             <div>
                 <Header />
-                <section>
-                    <Screen />
-                    <Buttons />
-                </section>
+                    <section>
+                        <div className="row">
+                            <div className="small-4 columns">
+                                <div style={{padding:50}}></div>
+                            </div>
+
+                            <Calculator />
+                            
+                            <div className="small-4 columns">
+                                <div style={{padding:50}}></div>
+                            </div>
+                        </div>
+                    </section>
                 <Footer />
             </div>
         )

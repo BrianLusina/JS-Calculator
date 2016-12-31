@@ -1,0 +1,16 @@
+#calc-display{
+	padding: 40px;
+	font-size: 25px;
+	background: white;
+	text-align: right;
+	color:black;
+	max-width:100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;	
+}
+
+/*display inputs*/
+#calc-display p span{
+	margin:0px;
+	font-size: 25px;
+}

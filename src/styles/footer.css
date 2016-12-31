@@ -1,0 +1,19 @@
+#footer-container{
+	color:white;
+	text-align: center;
+	padding:5px;
+	font-family: Poiret One, cursive, sans-serif;
+	font-weight: bolder;
+}
+
+#footer-container .fa-calculator{
+	color:#450250;
+}
+
+#footer-container a{
+	color:white;
+}
+
+#footer-container a:hover{
+	color:burlywood;
+}
